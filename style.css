@@ -1,0 +1,47 @@
+/* General Page Styling */
+body {
+    background-color: red; /* Outer background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Container for Content */
+.container {
+    background-color: blue; /* Main box background */
+    color: white;
+    padding: 20px;
+    width: 50%;
+    border: 10px solid white;
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+/* Text Styling */
+p, li {
+    font-size: 1.2em;
+}
+
+/* List Styling */
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
